@@ -12,7 +12,7 @@ function* fetchCharacters () {
     console.log("response", response.data.data);
     yield put({type: "RECEIVE_CHARACTERS", payload: response.data.data});
   } catch (e) {
-    // TODO
+    console.log(e)
   }
 }
 
