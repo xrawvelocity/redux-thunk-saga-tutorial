@@ -2,8 +2,6 @@ import {createLogger} from "redux-logger";
 import {createStore, combineReducers, applyMiddleware} from "redux";
 import createSagaMiddleware from "redux-saga";
 
-
-
 import appReducer from "../reducers";
 import {fetchCharacters} from "../actions/characters";
 
