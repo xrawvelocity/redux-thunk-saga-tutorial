@@ -15,7 +15,6 @@ const logger = createLogger({
 
 const sagaMiddleware = createSagaMiddleware()
 
-
 const app = combineReducers({appReducer});
 
 const store = createStore(
